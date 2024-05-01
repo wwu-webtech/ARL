@@ -11,47 +11,55 @@ import Layout from "../layouts/layout.astro";
       <!-- Main Content Section -->
       <div class="layout layout--onecol">
         <div class="layout__region layout__region--content">
-          <div class="block block--white-space vertical-space--2x">
+          <div class="block block--white-space vertical-space--1x">
           </div>
         </div>
       </div>
+      
       <div class="layout layout--onecol">
         <div class="layout__region layout__region--content">
           <div class="block wwu-banner block--banner blue-overlay min-height--50vh">
             <div class="background-image">
             </div>
-            <div class="body">
+            <div class="body text-align-center double-padding standard-margin">
               <div class="field field--name-body field--type-text-with-summary field--label-hidden field-item">
-                <h1>Welcome to the Accessibility Research Lab!</h1>
-                <p>The Accessibility Research Lab (ARL) unites with Western Washington University (WWU) to explore current accessible and assistive technologies to best ensure student success. Our research helps to fill in gaps regarding understanding what folks with disabilities experience while navigating campus life. The ARL works to implement solutions to help people with disabilities be successful in the ever-changing world of digital and physical technologies. The ARL teams up with faculty, staff, and students at WWU. We are a devoted community of partners, higher education institutions across the nation and world. We at ARL are proud to contribute toward equitable access to digital technologies and physical spaces for all humans.</p>
+                <h1 class="standard-padding--top">Welcome to the Accessibility Research Lab!</h1>
+                <p class="standard-padding--left standard-padding--right">The Accessibility Research Lab (ARL) unites with Western Washington University (WWU) to explore current accessible and assistive technologies to best ensure student success. Our research helps to fill in gaps regarding understanding what folks with disabilities experience while navigating campus life. The ARL works to implement solutions to help people with disabilities be successful in the ever-changing world of digital and physical technologies. The ARL teams up with faculty, staff, and students at WWU. We are a devoted community of partners, higher education institutions across the nation and world. We at ARL are proud to contribute toward equitable access to digital technologies and physical spaces for all humans.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
+      <div class="layout layout--onecol">
+        <div  class="layout__region layout__region--content">
+          <div class="block block--white-space vertical-space--3x">
+          </div>
+        </div>
+      </div>
+          
       <!-- Two Column Section 1: Current and Future Projects -->
       <div class="layout--twocol-section layout--twocol-section--50-50">
         <div class="layout__region layout__region--first">
           <div class="block block--beyond-basics-block wwu-beyond-basics-block blue-bg font-size--regular">
-            <a href="/CurrentProjects">
-              <div class="align-center">
-                <img src="/images/index/current_projects.jpg" alt="Person sitting at table sketching architecture in the WWU art building">
-              </div>
-              <h2 class="text-align-center">Current Projects</h2>
-            </a>
-            <p class="text-align-center">See what ARL is currently working on!</p>
+            <div class="align-center standard-padding standard-margin">
+              <img src="/images/index/current_projects.jpg" alt="Person sitting at table sketching architecture in the WWU art building">
+              <a href="/CurrentProjects">
+                <h2 class="text-align-center">Current Projects</h2>
+              </a>
+              <p class="text-align-center">See what ARL is currently working on!</p>
+            </div>
           </div>
         </div>
         <div class="layout__region layout__region--second">
           <div class="block block--beyond-basics-block wwu-beyond-basics-block blue-bg font-size--regular">
-            <a href="/FutureProjects">
-              <div class="align-center">
-                <img src="/images/index/future_projects.jpg" alt="Future Projects Image">
-              </div>
-              <h2 class="text-align-center">Future Projects</h2>
-            </a>
-            <p class="text-align-center">Check out ARL's future plans!</p>
+            <div class="align-center standard-padding standard-margin">
+              <img src="/images/index/future_projects.jpg" alt="Future Projects Image">
+              <a href="/FutureProjects">
+                <h2 class="text-align-center">Future Projects</h2>
+              </a>
+              <p class="text-align-center">Check out ARL's future plans!</p>
+            </div>
           </div>
         </div>
       </div>
@@ -60,36 +68,44 @@ import Layout from "../layouts/layout.astro";
       <div class="layout--twocol-section layout--twocol-section--50-50">
         <div class="layout__region layout__region--first">
           <div class="block block--beyond-basics-block wwu-beyond-basics-block blue-bg font-size--regular">
-            <a href="/Resources">
-              <div class="align-center">
-                <img src="/images/index/resources.jpg" alt="Resources Image">
-              </div>
-              <h2 class="text-align-center">Resources</h2>
-            </a>
-            <p class="text-align-center">Getting started in digital technology accessibility can be challenging, which is why ARL has provided resources on the subject. We also share useful tools for accessible software and physical environments because accessibility standards extend across technologies.</p>
+            <div class="align-center standard-padding standard-margin">
+              <img src="/images/index/resources.jpg" alt="Resources Image">
+              <a href="/Resources">
+                <h2 class="text-align-center">Resources</h2>
+              </a>
+              <p class="text-align-center">Getting started in digital technology accessibility can be challenging, which is why ARL has provided resources on the subject. We also share useful tools for accessible software and physical environments because accessibility standards extend across technologies.</p>
+            </div>
           </div>
         </div>
         <div class="layout__region layout__region--second">
           <div class="block block--beyond-basics-block wwu-beyond-basics-block blue-bg font-size--regular">
-            <a href="/ContactUs">
-              <div class="align-center">
-                <img src="/images/index/contact.jpg" alt="Contact Image">
-              </div>
-              <h2 class="text-align-center">Contact</h2>
-            </a>
-            <p class="text-align-center">If you would like to contact individual members of the ARL staff, please visit our Leadership page. If you want to reach ARL directly, please fill out the form on the Contact page. We will reply as soon as possible.</p>
+            <div class="align-center standard-padding standard-margin">
+              <img src="/images/index/contact.jpg" alt="Contact Image">
+              <a href="/ContactUs">
+                <h2 class="text-align-center">Contact</h2>
+              </a>
+              <p class="text-align-center">If you would like to contact individual members of the ARL staff, please visit our Leadership page. If you want to reach ARL directly, please fill out the form on the Contact page. We will reply as soon as possible.</p>
+            </div>
           </div>
         </div>
       </div>
-
+    
       <!-- Secondary Content Section: How You Can Get Involved -->
       <div class="layout layout--onecol">
         <div class="layout__region layout__region--content">
           <div class="block block--beyond-basics-block wwu-beyond-basics-block blue-bg">
-            <h2 class="title">How You Can Get Involved</h2>
-            <div class="field field--name-body field--type-text-with-summary field--label-hidden field-item">
-              <p>When digital designers create accessible technology, it benefits people of all circumstances and backgrounds. Accessible design will help users explore your platform more efficiently, which results in increased website traffic. If you would like to volunteer for the ARL, please fill out the Contact form or visit our Leadership page for direct contact with our contributors.</p>
-            </div>
+              <h2 class="title standard-padding--top standard-padding--left standard-padding--right half-padding--bottom">How You Can Get Involved</h2>
+              <div class="field field--name-body field--type-text-with-summary field--label-hidden field-item">
+                <p class="standard-padding--left standard-padding--right double-padding--bottom">When digital designers create accessible technology, it benefits people of all circumstances and backgrounds. Accessible design will help users explore your platform more efficiently, which results in increased website traffic. If you would like to volunteer for the ARL, please fill out the Contact form or visit our Leadership page for direct contact with our contributors.</p>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="layout layout--onecol">
+        <div  class="layout__region layout__region--content">
+          <div class="block block--white-space vertical-space--3x">
           </div>
         </div>
       </div>
