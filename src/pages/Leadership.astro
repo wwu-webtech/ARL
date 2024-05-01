@@ -3,62 +3,65 @@ import Layout from "../layouts/layout.astro";
 ---
 
 <Layout
-  title="Leadership | Accessibility Research Lab | Western Washington University">
+  title="Leadership | Accessibility Research Lab | Western Washington University"
+>
 
   <div class="page-content">
     <div class="region-wrapper">
 
-      <h1>Leadership</h1>
-      <h2>Meet the ARL Team!</h2>
-      
-      <div class="wwu-image-with-description">
-        <div class="image">
-          <img src="images/leadership/david_engebretson_jr_profile.jpg" alt="David Engebretson is wearing a blue plaid button up shirt, black sunglasses, and a gold award with a dark and light blue strap"/>    
+      <h1 class="page-title">
+        <span>Leadership</span>
+      </h1>
+      <div class="layout layout--onecol--full">
+        <div class="layout__region layout__region--content">
+          <h2 class="title">Meet the ARL Team!</h2>
+          <div class="wwu-image-with-description">
+            <div class="image">
+              <img src="images/leadership/david_engebretson_jr_profile.jpg" alt="David Engebretson is wearing a blue plaid button up shirt, black sunglasses, and a gold award with a dark and light blue strap" />    
+            </div>
+            <div class="body">     
+              <h3 class="title">David Engebretson Jr - Digital Technologies Accessibility Coordinator</h3>
+              <h4>About</h4>
+              <ul>
+                <li>Evaluates Western's digital content and technologies for accessibility and usability.</li>
+                <li>Provides end user testing with screen readers and other assistive technologies.</li>
+                <li>Trains Western stakeholders how to best create accessible webpages, documents, and multimedia.</li>
+                <li>Advises faculty, students, and staff as to how to best collaboratively share the awareness of the need for accessible digital designs to promote equity for all Western Washington University stakeholders</li>
+              </ul>
+            </div>  
+          </div>
+
+          <div class="wwu-image-with-description">
+            <div class="image">
+              <img src="images/leadership/dustin_ohara_profile.jpg" alt="Dustin O'Hara is wearing black rimmed glasses and a tan button up shirt" />    
+            </div>
+            <div class="body">     
+              <h3 class="title">Dustin O'Hara - Director, Internet Studies Center</h3>
+              <h4>About</h4>
+              <p>I'm an educator and design researcher. I'm interested in the cultural significance and politics of digital media and technology. I have a long-standing interest in collaborative and community-based design practices. My teaching and research often involve a combination of creative coding, interaction design, and humanistic and social science research methods. As director of the internet studies center, I oversee an undergraduate minor degree program that is focused on the interdisciplinary study and design of digital technologies.</p>
+            </div>  
+          </div>
+
+          <div class="wwu-image-with-description">
+            <div class="image">
+              <img src="images/leadership/yasmine_elglaly_profile.jpg" alt="Yasmine Elglaly is outside wearing a black blazer and white undershirt with blue floral patterns" />    
+            </div>
+            <div class="body">     
+              <h3 class="title">Yasmine Elglaly - Assistant Professor</h3>
+              <h4>About</h4>
+              <p>Other interests: Reading, travel, hiking</p>
+            </div>  
+          </div>
         </div>
-        <div class="body">     
-          <h3 class="title">David Engebretson Jr - Digital Technologies Accessibility Coordinator</h3>
-          <h4>About</h4>
+      </div> <!-- end layout -->
 
-          <ul>
-            <li>Evaluates Western's digital content and technologies for accessibility and usability.</li>
-            <li>Provides end user testing with screen readers and other assistive technologies.</li>
-            <li>Trains Western stakeholders how to best create accessible webpages, documents, and multimedia.</li>
-            <li>Advises faculty, students, and staff as to how to best collaboratively share the awareness of the need for accessible digital designs to promote equity for all Western Washington University stakeholders</li>
-          </ul>
-        </div>  
-      </div>
-
-      <div class="wwu-image-with-description">
-        <div class="image">
-          <img src="images/leadership/dustin_ohara_profile.jpg" alt="Dustin O'Hara is wearing black rimmed glasses and a tan button up shirt"/>    
-        </div>
-        <div class="body">     
-          <h3 class="title">Dustin O'Hara - Director, Internet Studies Center</h3>
-          <h4>About</h4>
-
-          <p>I'm an educator and design researcher. I'm interested in the cultural significance and politics of digital media and technology. I have a long-standing interest in collaborative and community-based design practices. My teaching and research often involve a combination of creative coding, interaction design, and humanistic and social science research methods. As director of the internet studies center, I oversee an undergraduate minor degree program that is focused on the interdisciplinary study and design of digital technologies.</p>
-        </div>  
-      </div>
-
-      <div class="wwu-image-with-description">
-        <div class="image">
-          <img src="images/leadership/yasmine_elglaly_profile.jpg" alt="Yasmine Elglaly is outside wearing a black blazer and white undershirt with blue floral patterns"/>    
-        </div>
-        <div class="body">     
-          <h3 class="title">Yasmine Elglaly - Assistant Professor</h3>
-          <h4>About</h4>
-
-          <p>Other interests: Reading, travel, hiking</p>
-        </div>  
-      </div>
+      <style>
+        @import url('https://ashlar.blob.core.windows.net/ashlar-theme-files/css/components/image-with-description.css');
+        .wwu-image-with-description .image img {
+          width: 600px;
+        }
+      </style>
 
     </div> <!-- end region-wrapper -->
   </div> <!-- end page-content -->
-
-  <style>
-    @import url('https://ashlar.blob.core.windows.net/ashlar-theme-files/css/components/image-with-description.css');
-    .wwu-image-with-description .image img {
-        width: 600px;
-    }
-  </style>
 </Layout>
