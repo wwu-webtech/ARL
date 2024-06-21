@@ -3,6 +3,9 @@ dist/
 
 # generated types
 .astro/
+.vscode/
+.opposite-osiris/
+
 
 # dependencies
 node_modules/
